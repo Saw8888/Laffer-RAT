@@ -51,7 +51,7 @@ print ('Looking For Victims')
 class Server:
     def __init__(self):
         self.host = ''
-        self.port = 6758
+        self.port = 6759
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     def bind(self):
