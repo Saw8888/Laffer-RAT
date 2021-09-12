@@ -3,7 +3,7 @@ import os
 
 server = socket.socket()
 host = '127.0.0.1'
-port = 1234
+port = 6759
 
 run = True
 server.connect((host,port))
