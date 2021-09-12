@@ -1,8 +1,6 @@
 import socket
 import os
-import pygame
 
-pygame.display.set_icon(pygame.image.load('Icon'))
 server = socket.socket()
 host = '127.0.0.1'
 port = 1234
