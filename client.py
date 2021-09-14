@@ -4,7 +4,7 @@ import os
 client_ip = socket.gethostbyname(socket.gethostname())
 class Client:
     def __init__(self):
-        self.host = '192.168.1.249'
+        self.host = '127.0.0.1'
         self.port = 6758
         self.server = socket.socket()
 
