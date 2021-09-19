@@ -50,7 +50,7 @@ print('')
 print ('Looking For Victims')
 class Server:
     def __init__(self):
-        self.host = ''
+        self.host = '127.0.0.1'
         self.port = 6759
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
